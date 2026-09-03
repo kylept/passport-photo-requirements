@@ -1,6 +1,6 @@
 # Passport, visa and ID photo requirements dataset
 
-Machine-readable photo rules for 47 passport, visa and ID documents: size, head height, eye line, background, glasses and editing rules, each with the official government source it was checked against.
+Machine-readable photo rules for 49 passport, visa and ID documents: size, head height, eye line, background, glasses and editing rules, each with the official government source it was checked against.
 
 The data is what powers [ID Photo Maker](https://id-photo-maker.skillsafe.ai/), a free in-browser tool that crops a portrait to these sizes and prints a 4x6 or A4 sheet. Every record has a human-readable page there, for example the [U.S. passport photo](https://id-photo-maker.skillsafe.ai/us-passport-photo.html), the [Chinese passport photo](https://id-photo-maker.skillsafe.ai/china-passport-photo.html) or the [full size chart](https://id-photo-maker.skillsafe.ai/passport-photo-size-chart.html).
 
@@ -48,7 +48,9 @@ Rules change. `lastVerified` is per record; open an issue if an official page no
 | United Kingdom — Passport | 35 x 45 mm | 35 x 45 | 29–34 mm | off-white or cream, light gray | Allowed only with clear, untinted lenses; no glare or eye obstruction | [source](https://www.gov.uk/photos-for-passports/photo-requirements) |
 | Canada — Passport | 50 x 70 mm | 50 x 70 | 31–36 mm | not published | Not stated in reviewed source | [source](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html) |
 | China — Passport / Visa | 33 x 48 mm | 33 x 48 | 30–34 mm | white, light grey, light blue | Allowed with clear, untinted lenses; frames must not obscure the eyes or show glare, and thick frames are discouraged | [source](https://www.nia.gov.cn/n741445/n763221/index.html) |
+| China — Visa | 33 x 48 mm | 33 x 48 | 28–33 mm | white, close to white | Allowed if the lenses are clear and untinted, there is no glare, and the frames are not thick-rimmed or covering the eyes | [source](https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/201612/t20161206_4410998.htm) |
 | India — Passport | 35 x 45 mm | 35 x 45 | 32–36 mm | white | Allowed only with clear, untinted lenses; no glare or eye obstruction | [source](https://www.passportindia.gov.in/AppOnlineProject/pdf/ApplicationformInstructionBooklet-V3.0.pdf) |
+| India — OCI card | 2 x 2 in | 50.8 x 50.8 | 25–35 mm | any plain light color | Allowed only with clear, untinted lenses; no glare or eye obstruction | [source](https://ociservices.gov.in/Photo-Spec-FINAL.pdf) |
 | Argentina — DNI | 4 x 4 cm | 40 x 40 | 25–31 mm | white | Not allowed for the foto 4x4 needed at a consulate without the digital system or for an emergency passport abroad ("sin anteojos"). | [source](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-169-2011-178525/actualizacion) |
 | Brazil — Passport | 50 x 70 mm | 50 x 70 | 31–36 mm | white | Not stated in reviewed source | [source](https://www.gov.br/pf/pt-br/assuntos/passaporte/ajuda/duvidas_/documentacao/documentacao-fotografia-5x7-o-que-preciso) |
 | Mexico — Passport | 35 x 45 mm | 35 x 45 | 32–36 mm | white | Not allowed. The photo is taken without glasses at the appointment, and any exceptional printed photo must also be taken without glasses. | [source](https://www.gob.mx/sre/acciones-y-programas/tramite-de-pasaporte-8014) |

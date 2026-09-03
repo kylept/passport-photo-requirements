@@ -7,7 +7,7 @@
   "dateModified": "2026-09-03",
   "methodology": "https://id-photo-maker.skillsafe.ai/requirements-database.html#methodology",
   "changelog": "https://id-photo-maker.skillsafe.ai/changelog.html",
-  "recordCount": 47,
+  "recordCount": 49,
   "records": [
     {
       "id": "us",
@@ -165,6 +165,32 @@
       "verificationStatus": "Head height, background options and the digital file spec checked directly against the NIA poster (出入境证件相片照相指引) hosted on nia.gov.cn; verified 2026-09-03"
     },
     {
+      "id": "cn_visa",
+      "region": "Popular standards",
+      "country": "China",
+      "documentType": "Visa",
+      "displayName": "China — Visa",
+      "format": "33 x 48 mm",
+      "widthMm": 33,
+      "heightMm": 48,
+      "digitalOnly": false,
+      "headHeightMinMm": 28,
+      "headHeightMaxMm": 33,
+      "headHeightBasis": "Officially published",
+      "eyeLineMinMm": null,
+      "eyeLineMaxMm": null,
+      "allowedBackgrounds": [
+        "white",
+        "close to white"
+      ],
+      "prohibitedBackgrounds": [],
+      "glassesRule": "Allowed if the lenses are clear and untinted, there is no glare, and the frames are not thick-rimmed or covering the eyes",
+      "editingRule": "Not stated in reviewed source (natural, undistorted image required)",
+      "officialSource": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/201612/t20161206_4410998.htm",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Ministry of Foreign Affairs visa photo poster as published by the Chinese embassies in the US and Canada; COVA digital upload is JPEG 354-420 x 472-560 px, 40-120 KB"
+    },
+    {
       "id": "in",
       "region": "Popular standards",
       "country": "India",
@@ -190,6 +216,31 @@
       "officialSource": "https://www.passportindia.gov.in/AppOnlineProject/pdf/ApplicationformInstructionBooklet-V3.0.pdf",
       "lastVerified": "2026-09-03",
       "verificationStatus": "Dimensions and published rules checked against the official source"
+    },
+    {
+      "id": "in_oci",
+      "region": "Popular standards",
+      "country": "India",
+      "documentType": "OCI card",
+      "displayName": "India — OCI card",
+      "format": "2 x 2 in",
+      "widthMm": 50.8,
+      "heightMm": 50.8,
+      "digitalOnly": false,
+      "headHeightMinMm": 25,
+      "headHeightMaxMm": 35,
+      "headHeightBasis": "Officially published",
+      "eyeLineMinMm": null,
+      "eyeLineMaxMm": null,
+      "allowedBackgrounds": [
+        "any plain light color"
+      ],
+      "prohibitedBackgrounds": [],
+      "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
+      "editingRule": "Original, unedited photo required",
+      "officialSource": "https://ociservices.gov.in/Photo-Spec-FINAL.pdf",
+      "lastVerified": "2026-07-22",
+      "verificationStatus": "Dimensions and published rules checked against the official source (split from the former combined India record on 2026-09-03)"
     },
     {
       "id": "ar",
