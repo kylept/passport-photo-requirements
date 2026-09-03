@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Passport, visa and ID photo requirements dataset"
+type: dataset
+authors:
+  - name: "ID Photo Maker"
+url: "https://id-photo-maker.skillsafe.ai/"
+repository-code: "https://github.com/kylept/passport-photo-requirements"
+license: CC-BY-4.0
+date-released: "2026-08-28"
