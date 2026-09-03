@@ -4,7 +4,7 @@
   "publisher": "OTA Travel",
   "url": "https://id-photo-maker.skillsafe.ai/requirements-database.html",
   "license": "https://id-photo-maker.skillsafe.ai/terms.html",
-  "dateModified": "2026-08-28",
+  "dateModified": "2026-09-03",
   "methodology": "https://id-photo-maker.skillsafe.ai/requirements-database.html#methodology",
   "changelog": "https://id-photo-maker.skillsafe.ai/changelog.html",
   "recordCount": 47,
@@ -22,18 +22,18 @@
       "headHeightMinMm": 25,
       "headHeightMaxMm": 35,
       "headHeightBasis": "Officially published",
-      "eyeLineMinMm": 28.6,
-      "eyeLineMaxMm": 34.9,
+      "eyeLineMinMm": 28,
+      "eyeLineMaxMm": 35,
       "allowedBackgrounds": [
         "white",
-        "off-white or cream"
+        "off-white"
       ],
       "prohibitedBackgrounds": [],
-      "glassesRule": "Not allowed",
+      "glassesRule": "Not allowed, except with a signed doctor's note for a documented medical reason (frames must not cover the eyes, and there must be no glare or shadow on the lenses).",
       "editingRule": "Original, unedited photo required",
       "officialSource": "https://travel.state.gov/en/passports/apply/help/photos.html",
-      "lastVerified": "2026-07-15",
-      "verificationStatus": "Official source recorded; source was unavailable during the later rule audit"
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Re-verified 2026-09-03 against travel.state.gov (mirrored at adoption.state.gov, since travel.state.gov blocks automated requests) and the official Photo Composition Template."
     },
     {
       "id": "us_opr",
@@ -147,44 +147,48 @@
       "widthMm": 33,
       "heightMm": 48,
       "digitalOnly": false,
-      "headHeightMinMm": 28,
-      "headHeightMaxMm": 33,
+      "headHeightMinMm": 30,
+      "headHeightMaxMm": 34,
       "headHeightBasis": "Officially published",
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
       "allowedBackgrounds": [
-        "white"
+        "white",
+        "light grey",
+        "light blue"
       ],
       "prohibitedBackgrounds": [],
-      "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
-      "editingRule": "Original, unedited photo required",
-      "officialSource": "https://us.china-embassy.gov.cn/lsfw/zj/hzlxz/201903/t20190309_5098803.htm",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "glassesRule": "Allowed with clear, untinted lenses; frames must not obscure the eyes or show glare, and thick frames are discouraged",
+      "editingRule": "Original, unedited photo required; no technical processing of scars, moles or hairstyle",
+      "officialSource": "https://www.nia.gov.cn/n741445/n763221/index.html",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Head height, background options and the digital file spec checked directly against the NIA poster (出入境证件相片照相指引) hosted on nia.gov.cn; verified 2026-09-03"
     },
     {
       "id": "in",
       "region": "Popular standards",
       "country": "India",
-      "documentType": "Passport / OCI",
-      "displayName": "India — Passport / OCI",
-      "format": "2 x 2 in",
-      "widthMm": 50.8,
-      "heightMm": 50.8,
+      "documentType": "Passport",
+      "displayName": "India — Passport",
+      "format": "35 x 45 mm",
+      "widthMm": 35,
+      "heightMm": 45,
       "digitalOnly": false,
-      "headHeightMinMm": 25,
-      "headHeightMaxMm": 35,
-      "headHeightBasis": "Officially published",
+      "headHeightMinMm": 32,
+      "headHeightMaxMm": 36,
+      "headHeightBasis": "Positioning guide; not published for this document",
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
       "allowedBackgrounds": [
-        "any plain light color"
+        "white"
       ],
-      "prohibitedBackgrounds": [],
+      "prohibitedBackgrounds": [
+        "dark backgrounds"
+      ],
       "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
       "editingRule": "Original, unedited photo required",
-      "officialSource": "https://ociservices.gov.in/Photo-Spec-FINAL.pdf",
-      "lastVerified": "2026-07-22",
+      "officialSource": "https://www.passportindia.gov.in/AppOnlineProject/pdf/ApplicationformInstructionBooklet-V3.0.pdf",
+      "lastVerified": "2026-09-03",
       "verificationStatus": "Dimensions and published rules checked against the official source"
     },
     {
@@ -206,11 +210,11 @@
         "white"
       ],
       "prohibitedBackgrounds": [],
-      "glassesRule": "Not stated in reviewed source",
+      "glassesRule": "Not allowed for the foto 4x4 needed at a consulate without the digital system or for an emergency passport abroad (\"sin anteojos\").",
       "editingRule": "Original, unedited photo required",
       "officialSource": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-169-2011-178525/actualizacion",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Corrected 2026-09-03: RENAPER captures the photo, fingerprints and signature on site for a domestic DNI. A foto 4x4 print is required only at a consulate without the digital system or for an emergency passport, where glasses are banned and the print must be white with a matte or semi-matte finish."
     },
     {
       "id": "br",
@@ -227,13 +231,15 @@
       "headHeightBasis": "Positioning guide; not published for this document",
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
-      "allowedBackgrounds": [],
+      "allowedBackgrounds": [
+        "white"
+      ],
       "prohibitedBackgrounds": [],
       "glassesRule": "Not stated in reviewed source",
       "editingRule": "Not stated in reviewed source",
       "officialSource": "https://www.gov.br/pf/pt-br/assuntos/passaporte/ajuda/duvidas_/documentacao/documentacao-fotografia-5x7-o-que-preciso",
-      "lastVerified": "2026-07-15",
-      "verificationStatus": "Official source recorded; source was unavailable during the later rule audit"
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Corrected 2026-09-03: from age 5 the Polícia Federal photographs the applicant electronically at the appointment; the 5 x 7 cm white-background print applies only to a child under 5 or a manual-capture fallback. Size and white background are officially published; head height, glasses and editing rules are not published for this print."
     },
     {
       "id": "mx",
@@ -253,12 +259,14 @@
       "allowedBackgrounds": [
         "white"
       ],
-      "prohibitedBackgrounds": [],
-      "glassesRule": "Not allowed",
+      "prohibitedBackgrounds": [
+        "gray or stained"
+      ],
+      "glassesRule": "Not allowed. The photo is taken without glasses at the appointment, and any exceptional printed photo must also be taken without glasses.",
       "editingRule": "Not stated in reviewed source",
-      "officialSource": "https://consulmex.sre.gob.mx/frankfurt/images/stories/pdf/fotosejemp.pdf",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "officialSource": "https://www.gob.mx/sre/acciones-y-programas/tramite-de-pasaporte-8014",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Re-verified 2026-09-03: on-site capture confirmed via gob.mx and the Vancouver/New York consulate pages; the 35 x 45 mm size, 30-day age limit and rejection examples confirmed via the Frankfurt consulate's example sheet (an image-based PDF, read with pdftotext); sre.gob.mx (id=252) returned a bot-protection page on WebFetch and curl and could not be independently re-checked this session."
     },
     {
       "id": "at",
@@ -458,10 +466,10 @@
       "prohibitedBackgrounds": [
         "white"
       ],
-      "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
+      "glassesRule": "Allowed only with clear, untinted lenses and no glare; the frame must not be thick and must not cover the eyes.",
       "editingRule": "Not stated in reviewed source",
       "officialSource": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
-      "lastVerified": "2026-07-22",
+      "lastVerified": "2026-09-03",
       "verificationStatus": "Dimensions and published rules checked against the official source"
     },
     {
@@ -480,16 +488,16 @@
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
       "allowedBackgrounds": [
-        "any plain light color",
-        "light gray",
-        "gray"
+        "plain light color (ideally neutral gray)",
+        "light gray for dark hair",
+        "medium gray for light hair"
       ],
       "prohibitedBackgrounds": [],
       "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
       "editingRule": "Not stated in reviewed source",
-      "officialSource": "https://www.sachsen.de/en/download/plakat_Fotomustertafel.pdf",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "officialSource": "https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/moderne-verwaltung/BMI24037-fotomustertafel.html",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Dimensions and background rules checked against the BMI Fotomustertafel (Auflage 10/24); digital-only capture since 1 May 2025 confirmed against the BMI FAQ and notice, with a paper-photo exception at missions abroad."
     },
     {
       "id": "gr",
@@ -659,13 +667,16 @@
       "headHeightBasis": "Positioning guide; not published for this document",
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
-      "allowedBackgrounds": [],
+      "allowedBackgrounds": [
+        "white",
+        "off-white"
+      ],
       "prohibitedBackgrounds": [],
-      "glassesRule": "Not stated in reviewed source",
+      "glassesRule": "Allowed only with clear, untinted lenses; no glare or eye obstruction",
       "editingRule": "Not stated in reviewed source",
-      "officialSource": "https://newyork.mid.ru/web/newyork_en/russian-visa-photo-specifications",
-      "lastVerified": "2026-07-15",
-      "verificationStatus": "Official source recorded; source was unavailable during the later rule audit"
+      "officialSource": "https://evisa.kdmid.ru/",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Dimensions and published rules checked against the official source"
     },
     {
       "id": "es",
@@ -778,13 +789,15 @@
       "headHeightBasis": "Positioning guide; not published for this document",
       "eyeLineMinMm": null,
       "eyeLineMaxMm": null,
-      "allowedBackgrounds": [],
+      "allowedBackgrounds": [
+        "plain light color (published for the visa photo)"
+      ],
       "prohibitedBackgrounds": [],
       "glassesRule": "Not stated in reviewed source",
       "editingRule": "Not stated in reviewed source",
-      "officialSource": "https://lebanon.mfa.gov.ua/en/visas-and-consular-services/visa-requested-documents",
-      "lastVerified": "2026-07-15",
-      "verificationStatus": "Official source recorded; source was unavailable during the later rule audit"
+      "officialSource": "https://www.kmu.gov.ua/npas/249794301",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Visa photo size and background confirmed against Cabinet of Ministers Resolution 118 and official embassy visa-document pages; the passport itself uses an image captured on site, not a self-supplied photo, except for two exception cases requiring a 10 x 15 cm print."
     },
     {
       "id": "au",
@@ -965,7 +978,7 @@
       "country": "Singapore",
       "documentType": "Passport / ID",
       "displayName": "Singapore — Passport / ID",
-      "format": "35 x 45 mm",
+      "format": "Digital photo, 400 x 514 px (print equivalent: 35 x 45 mm)",
       "widthMm": 35,
       "heightMm": 45,
       "digitalOnly": false,
@@ -978,11 +991,11 @@
         "white"
       ],
       "prohibitedBackgrounds": [],
-      "glassesRule": "Not stated in reviewed source",
+      "glassesRule": "Allowed if the lenses are clear and untinted and the eyes are clearly visible; reflection or glare on spectacles causes rejection.",
       "editingRule": "Original, unedited photo required",
       "officialSource": "https://www.ica.gov.sg/photo-guidelines",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Corrected 2026-09-03: ICA publishes no millimetre photo size; the digital upload for MyICA e-Services is 400 x 514 px. Glasses allowed if clear and untinted. Background, recency and headgear rules confirmed against the official Photo Guidelines page and its Dos and Don'ts graphic."
     },
     {
       "id": "kr",
@@ -1054,10 +1067,10 @@
       ],
       "prohibitedBackgrounds": [],
       "glassesRule": "Not allowed",
-      "editingRule": "Not stated in reviewed source",
-      "officialSource": "https://dichvucong.bocongan.gov.vn/bocongan/tintuc/chitiet?matin=41",
-      "lastVerified": "2026-07-22",
-      "verificationStatus": "Dimensions and published rules checked against the official source"
+      "editingRule": "No photoshop, AI editing or smiling; edited photos are refused and can cause problems at border e-gates",
+      "officialSource": "https://dichvucong.bocongan.gov.vn/bocongan/tintuc/chitiet?matin=141",
+      "lastVerified": "2026-09-03",
+      "verificationStatus": "Proportional face/eye-position rule and the explicit no-editing rule checked directly against the Ministry of Public Security portal and provincial police guidance; verified 2026-09-03"
     },
     {
       "id": "il",
