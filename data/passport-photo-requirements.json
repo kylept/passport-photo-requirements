@@ -1,12 +1,12 @@
 {
-  "name": "OTA Travel Passport, Visa and ID Photo Requirements Database",
+  "name": "Passport, visa and ID photo requirements",
   "description": "Source-backed photo dimensions and published rules used by ID Photo Maker. Missing values mean the reviewed authority did not publish the rule or it could not be verified; they are not guesses.",
-  "publisher": "OTA Travel",
-  "url": "https://id-photo-maker.skillsafe.ai/requirements-database.html",
-  "license": "https://id-photo-maker.skillsafe.ai/terms.html",
+  "publisher": "ID Photo Maker",
+  "url": "https://id-photo-maker.skillsafe.ai/passport-photo-size-chart.html",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "dateModified": "2026-09-03",
-  "methodology": "https://id-photo-maker.skillsafe.ai/requirements-database.html#methodology",
-  "changelog": "https://id-photo-maker.skillsafe.ai/changelog.html",
+  "methodology": "https://github.com/kylept/passport-photo-requirements#method",
+  "changelog": "https://github.com/kylept/passport-photo-requirements/commits/main",
   "recordCount": 49,
   "records": [
     {
