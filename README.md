@@ -1,8 +1,23 @@
 # Passport, visa and ID photo requirements dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22777229.svg)](https://doi.org/10.5281/zenodo.22777229)
+
 Machine-readable photo rules for 49 passport, visa and ID documents: size, head height, eye line, background, glasses and editing rules, each with the official government source it was checked against.
 
 The data is what powers [ID Photo Maker](https://id-photo-maker.skillsafe.ai/), a free in-browser tool that crops a portrait to these sizes and prints a 4x6 or A4 sheet. Every record has a human-readable page there, for example the [U.S. passport photo](https://id-photo-maker.skillsafe.ai/us-passport-photo.html), the [Chinese passport photo](https://id-photo-maker.skillsafe.ai/china-passport-photo.html) or the [full size chart](https://id-photo-maker.skillsafe.ai/passport-photo-size-chart.html).
+
+## Where to get it
+
+The same two files are published in four places. GitHub is the source of truth; the others are
+mirrors that update when a version is tagged here.
+
+| Where | Link | Use it for |
+|---|---|---|
+| GitHub | https://github.com/kylept/passport-photo-requirements | issues, pull requests, history |
+| Zenodo | https://doi.org/10.5281/zenodo.22777229 | citing (concept DOI), archived copy |
+| Hugging Face | https://huggingface.co/datasets/skillsafeai/passport-photo-requirements | `load_dataset("skillsafeai/passport-photo-requirements")` |
+| Kaggle | https://www.kaggle.com/datasets/skillsafe/passport-visa-and-id-photo-requirements | notebooks |
+| Web | https://id-photo-maker.skillsafe.ai/passport-photo-requirements-dataset.html | a human-readable page per record |
 
 ## Files
 
@@ -95,3 +110,16 @@ Rules change. `lastVerified` is per record; open an issue if an official page no
 ## License
 
 The dataset is released under [Creative Commons Attribution 4.0](LICENSE). Attribute as "ID Photo Maker passport photo requirements dataset, https://id-photo-maker.skillsafe.ai/". The official sources linked from each record belong to their publishers.
+
+## Citation
+
+Archived on Zenodo under CC BY 4.0. Cite the **concept DOI** - it always resolves to the
+latest version:
+
+> ID Photo Maker. (2026). *Passport, visa and ID photo requirements dataset* (1.0.0)
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22777229
+
+| | DOI |
+|---|---|
+| All versions (cite this) | [10.5281/zenodo.22777229](https://doi.org/10.5281/zenodo.22777229) |
+| Version 1.0.0 | [10.5281/zenodo.22777230](https://doi.org/10.5281/zenodo.22777230) |
